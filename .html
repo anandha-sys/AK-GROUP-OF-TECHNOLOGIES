@@ -1,146 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AK Group of Technologies | Official Website</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Montserrat', sans-serif;
-            overflow-x: hidden;
-        }
-
-        h1, h2, h3, .luxury-font {
-            font-family: 'Playfair Display', serif;
-        }
-
-        /* Cinematic Hero Background - Replace URL with your own dark, high-res tech image */
-        .hero-bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-
-        .bespoke-button {
-            border: 1px solid #ffffff;
-            background: transparent;
-            color: #ffffff;
-            transition: all 0.4s ease;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 0.8rem;
-        }
-
-        .bespoke-button:hover {
-            background: #ffffff;
-            color: #000000;
-        }
-
-        /* Minimalist scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #000000;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #333333;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AK GROUP OF TECHNOLOGIES</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="antialiased">
+<body>
 
-    <nav class="fixed w-full z-50 top-0 px-6 py-6 bg-black/50 backdrop-blur-md border-b border-white/10 transition-all duration-500">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="luxury-font text-2xl tracking-widest font-semibold uppercase">
-                AK Group
-            </div>
-            <button class="text-sm tracking-widest uppercase hover:text-gray-400 transition">
-                Menu =
-            </button>
-        </div>
-    </nav>
+<header>
+  <div class="logo">AK GROUP OF TECHNOLOGIES</div>
 
-    <header class="hero-bg h-screen w-full flex flex-col items-center justify-center text-center px-4 relative">
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <p class="uppercase tracking-[0.3em] text-sm md:text-base mb-6 text-gray-300">Inspiring Greatness</p>
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-normal mb-8 tracking-wide">
-                The Future of <br> <i class="font-light">Intelligence</i>
-            </h1>
-            <button class="bespoke-button px-10 py-4 mt-4">
-                Discover Our Vision
-            </button>
-        </div>
-        
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce opacity-50">
-            <p class="text-xs uppercase tracking-widest mb-2">Scroll</p>
-            <div class="w-[1px] h-12 bg-white mx-auto"></div>
-        </div>
-    </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="technologies.html">Technologies</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <section class="py-32 px-6 bg-black text-center max-w-4xl mx-auto">
-        <h2 class="text-3xl md:text-5xl font-light mb-10 leading-snug" data-aos="fade-up" data-aos-duration="1200">
-            Bespoke technology crafted for the pioneers of tomorrow.
-        </h2>
-        <p class="text-gray-400 leading-relaxed font-light text-lg" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-            At AK Group of Technologies, we do not just build software; we engineer masterpieces. From advanced artificial intelligence architectures to the foundations of 6G telecommunications, our pursuit is absolute perfection. 
-        </p>
-    </section>
+<section class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="assets/hero-video.mp4" type="video/mp4">
+  </video>
 
-    <section class="flex flex-col md:flex-row h-auto md:h-screen w-full bg-[#0a0a0a]">
-        <div class="w-full md:w-1/2 h-96 md:h-full bg-[url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop')] bg-cover bg-center" data-aos="fade-right" data-aos-duration="1500"></div>
-        <div class="w-full md:w-1/2 flex flex-col justify-center px-10 py-20 md:px-24" data-aos="fade-left" data-aos-duration="1500">
-            <h3 class="text-4xl font-normal mb-6 tracking-wide">Artificial Intelligence</h3>
-            <p class="text-gray-400 font-light leading-relaxed mb-10 text-lg">
-                Harnessing the power of advanced machine learning and Python-driven logic to create cognitive systems that redefine enterprise capabilities.
-            </p>
-            <div>
-                <a href="#" class="border-b border-white pb-1 text-sm uppercase tracking-widest hover:text-gray-400 hover:border-gray-400 transition">Explore AI Solutions</a>
-            </div>
-        </div>
-    </section>
+  <div class="hero-content">
+    <h1>Innovating The Future</h1>
+    <p>Building Tomorrow's Technology Today</p>
+    <a class="btn" href="about.html">Explore</a>
+  </div>
+</section>
 
-    <section class="flex flex-col md:flex-row-reverse h-auto md:h-screen w-full bg-[#050505]">
-        <div class="w-full md:w-1/2 h-96 md:h-full bg-[url('https://images.unsplash.com/photo-1519389953887-9e776a10ea28?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" data-aos="fade-left" data-aos-duration="1500"></div>
-        <div class="w-full md:w-1/2 flex flex-col justify-center px-10 py-20 md:px-24" data-aos="fade-right" data-aos-duration="1500">
-            <h3 class="text-4xl font-normal mb-6 tracking-wide">Next-Gen Hardware</h3>
-            <p class="text-gray-400 font-light leading-relaxed mb-10 text-lg">
-                Pioneering the development of advanced mobile infrastructure, preparing the world for the seamless connectivity of 6G networks.
-            </p>
-            <div>
-                <a href="#" class="border-b border-white pb-1 text-sm uppercase tracking-widest hover:text-gray-400 hover:border-gray-400 transition">Explore Hardware</a>
-            </div>
-        </div>
-    </section>
+<section class="section">
+  <h2>Our Vision</h2>
+  <p>Creating world-class software, AI, and digital experiences.</p>
+</section>
 
-    <footer class="py-20 bg-black border-t border-white/10 text-center">
-        <h2 class="luxury-font text-2xl uppercase tracking-widest mb-10">AK Group</h2>
-        <div class="flex justify-center space-x-8 mb-10 text-xs uppercase tracking-widest text-gray-500">
-            <a href="#" class="hover:text-white transition">Privacy</a>
-            <a href="#" class="hover:text-white transition">Terms</a>
-            <a href="#" class="hover:text-white transition">Contact</a>
-        </div>
-        <p class="text-xs text-gray-600 font-light">&copy; 2026 AK Group of Technologies. All rights reserved.</p>
-    </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true, // Animations happen once when scrolling down
-            offset: 100, // Offset from original trigger point
-        });
-    </script>
+<script src="js/app.js"></script>
 </body>
 </html>
